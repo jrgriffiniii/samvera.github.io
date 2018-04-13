@@ -113,7 +113,7 @@ BASE_PATH : https://samvera.github.io
 a_z:
     index_title: false
     filename: a-z.md
-    alternate_dest: '/generated'
+    alternate_dest: '/pages'
     exclude:
       - '/atom.xml'
       - '/feed.xml'
@@ -125,3 +125,6 @@ a_z:
       - 'sidebar: home_sidebar'
 
 theme: jekyll-theme-minimal
+
+exclude_from_watch:
+  - 'pages/a-z.md'
