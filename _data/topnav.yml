@@ -7,6 +7,8 @@
       url: community.html
     - title: Developers
       url: developers.html
+    - title: DevOps
+      url: devops.html
     - title: Managers
       url: intro-to.html
     - title: Glossary
