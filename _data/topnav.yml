@@ -1,7 +1,17 @@
 ---
-topnav:
-  - items:
-      - title: 'Browse Pages'
-        url: '/browse_pages.html'
-      - title: 'Contact'
-        url: '/get-help.html'
+- title: Main Menu
+  children:
+    - title: Newcomers
+      url: newcomers.html
+    - title: Community
+      url: community.html
+    - title: Developers
+      url: developers.html
+    - title: Manager
+      url: intro-to.html
+    - title: Glossary
+      url: glossary-2.1.html
+- title: 'Browse Pages'
+  url: '/browse_pages.html'
+- title: 'Contact'
+  url: '/get-help.html'

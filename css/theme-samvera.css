@@ -43,8 +43,15 @@ a[data-toggle="tooltip"] {
 
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
-.navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #015CAE;
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > li > a:focus {
+    background-color: white;
+    color: #8c2900;
+}
+
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+  border-top-color: #8c2900 !important;
+  border-bottom-color: #8c2900 !important;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
