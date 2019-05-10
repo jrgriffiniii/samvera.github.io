@@ -109,4 +109,31 @@ workflows:
           ruby_version: "2.4.6"
           requires:
             - bundle_ruby2-4_rails5-1
+      - bundle:
+          name: "bundle_ruby2-6_rails4-2"
+          ruby_version: "2.6.3"
+          rails_version: "4.2.11.1"
+      - test:
+          name: "ruby2-6_rails4-2"
+          ruby_version: "2.6.3"
+          requires:
+            - bundle_ruby2-6_rails4-2
+      - bundle:
+          name: "bundle_ruby2-5_rails4-2"
+          ruby_version: "2.5.5"
+          rails_version: "4.2.11.1"
+      - test:
+          name: "ruby2-5_rails4-2"
+          ruby_version: "2.5.5"
+          requires:
+            - bundle_ruby2-5_rails4-2
+      - bundle:
+          name: "bundle_ruby2-4_rails4-2"
+          ruby_version: "2.4.6"
+          rails_version: "4.2.11.1"
+      - test:
+          name: "ruby2-4_rails4-2"
+          ruby_version: "2.4.6"
+          requires:
+            - bundle_ruby2-4_rails4-2
 
