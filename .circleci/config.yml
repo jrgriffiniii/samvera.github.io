@@ -112,7 +112,7 @@ workflows:
       - bundle:
           name: "bundle_ruby2-6_rails4-2"
           ruby_version: "2.6.3"
-          rails_version: "4.2.11.1"
+          rails_version: "4.2.10"
       - test:
           name: "ruby2-6_rails4-2"
           ruby_version: "2.6.3"
@@ -121,7 +121,7 @@ workflows:
       - bundle:
           name: "bundle_ruby2-5_rails4-2"
           ruby_version: "2.5.5"
-          rails_version: "4.2.11.1"
+          rails_version: "4.2.10"
       - test:
           name: "ruby2-5_rails4-2"
           ruby_version: "2.5.5"
@@ -130,7 +130,7 @@ workflows:
       - bundle:
           name: "bundle_ruby2-4_rails4-2"
           ruby_version: "2.4.6"
-          rails_version: "4.2.11.1"
+          rails_version: "4.2.10"
       - test:
           name: "ruby2-4_rails4-2"
           ruby_version: "2.4.6"
